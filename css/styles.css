@@ -1,0 +1,26 @@
+body {
+    font-family: 'Pacifico', cursive;
+    background-color: #bdc4d3;
+    color: black;
+}
+
+.btn-color {
+    background-color: #c7aaa3;
+}
+
+.carousel-item .img-fluid {
+    width: 50%;
+}
+
+
+
+.row-content {
+    padding: 0;
+}
+
+
+.site-footer {
+    color: white;
+    background-color: #8b6c5e;
+    padding: 20px;
+}
