@@ -20,21 +20,19 @@
 <body>
   <div>
     <header class="navbar navbar-expand-sm navbar-dark sticky-top">
-      <div class="container m-0">
         <a class="navbar-brand" href="#" height="30" width="30">Claud Dee Bakes</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#CDBNavbar">
           <span class="button-label">Menu</span>
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="CDBNavbar">
-          <ul class="navbar-nav p-0 ml-auto">
+          <ul class="nav navbar-nav ml-auto">
             <li class="nav-item"><a class="nav-link" href="about.html"><i class="fa"></i>About</a></li>
             <li class="nav-item"><a class="nav-link" href="order.html"><i class="fa"></i>Order</a></li>
             <li class="nav-item"><a class="nav-link" href="menu.html"><i class="fa"></i>Menu</a></li>
             <li class="nav-item"><a class="nav-link" href="contact.html"><i class="fa"></i>Contact</a></li>
           </ul>
         </div>
-      </div>
     </header>
   </div>
 
@@ -49,24 +47,39 @@
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="d-block w-100" src="img/CDB_Baked_Matcha_Donuts.jpg" alt="First slide">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Baked Matcha Donuts</h5>
-                <p>...</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="img/CDB_Baked_Red_Velvet_Donuts.jpg" alt="Second slide">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Baked Red Velvet Donuts</h5>
-                <p>...</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="img/CDB_Chocolate_Pretzel_Baked_Donut.jpg" alt="Third slide">
-              <div class="carousel-caption d-none d-md-block">
+              <picture>
+                <source srcset="https://dummyimage.com/2000x500/007aeb/4196e5" media="(min-width: 1400px)">
+                <source srcset="https://dummyimage.com/1400x500/#007aeb/4196e5" media="(min-width: 769px)">
+                <source srcset="https://dummyimage.com/800x500/007aeb/4196e5" media="(min-width: 577px)">
+                <img class="d-block w-100 img-fluid" src="img/CDB_Chocolate_Pretzel_Baked_Donut.jpg" alt="First slide">
+              </picture>
+              <div class="carousel-caption d-none d-block">
                 <h5>Chocolate Pretzel Donuts</h5>
-                <p>...</p>
+                <p class="d-none d-sm-block">...</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <picture>
+                <source srcset="https://dummyimage.com/2000x500/007aeb/4196e5" media="(min-width: 1400px)">
+                <source srcset="https://dummyimage.com/1400x500/#007aeb/4196e5" media="(min-width: 769px)">
+                <source srcset="https://dummyimage.com/800x500/007aeb/4196e5" media="(min-width: 577px)">
+                <img class="d-block w-100" src="img/CDB_Baked_Red_Velvet_Donuts.jpg" alt="Second slide">
+              </picture>
+              <div class="carousel-caption d-none d-block">
+                <h5>Baked Red Velvet Donuts</h5>
+                <p class="d-none d-sm-block">vibes</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <picture>
+                <source srcset="https://dummyimage.com/2000x500/007aeb/4196e5" media="(min-width: 1400px)">
+                <source srcset="https://dummyimage.com/1400x500/#007aeb/4196e5" media="(min-width: 769px)">
+                <source srcset="https://dummyimage.com/800x500/007aeb/4196e5" media="(min-width: 577px)">
+                <img class="d-block w-100" src="img/CDB_Baked_Matcha_Donuts.jpg" alt="Third slide">
+              </picture>
+              <div class="carousel-caption d-none d-block">
+                <h5>Baked Matcha Donuts</h5>
+                <p class="d-none d-sm-block">...</p>
               </div>
             </div>
           </div>
@@ -105,7 +118,7 @@
               <li><p>Vegan and Gluten-Free Options available</p></li>
               <li><p>Order Monday-Wednesday for Friday Pick-up or Local Delivery.</p></li>
             </ul>
-            <a href="#" class="btn btn-color">Order Now</a>
+            <a href="./order.html" class="btn btn-color">Order Now</a>
           </div>
         </div>
       </div>
@@ -115,15 +128,15 @@
   <footer class="site-footer">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-sm-6">
+        <div class="col-12 col-sm-8">
           <h5>Social Media:</h5>
-          <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
-          <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+          <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/clauddeebakes"><i class="fa fa-instagram"></i></a>
+          <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/clauddeebakes"><i class="fa fa-facebook"></i></a>
         </div>
         <div class="col">
           <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="email" placeholder="Email Address" aria-label="Email">
-            <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Email</button>
+            <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Subscribe</button>
           </form>
         </div>
       </div>
