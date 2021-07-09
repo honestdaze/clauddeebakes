@@ -50,3 +50,17 @@ body {
     color: white !important;
     opacity: 100;
 }
+
+.menu-list  {
+    columns: 2;
+}
+
+.menu-list li {
+    margin: 12px;
+}
+
+h6 {
+    text-align: center;
+    font-size: 14pt;
+    margin-bottom: 1rem;
+}
