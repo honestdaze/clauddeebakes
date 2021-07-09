@@ -35,3 +35,18 @@ body {
 .underline {
     text-decoration: underline;
 }
+
+.btn-icon {
+    color: white;
+
+}
+
+.btn-white {
+    color: white !important;
+    opacity: 80%;
+}
+
+.btn-white:hover, .btn-my-own-color:active {
+    color: white !important;
+    opacity: 100;
+}
