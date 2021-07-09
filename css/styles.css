@@ -64,3 +64,11 @@ h6 {
     font-size: 14pt;
     margin-bottom: 1rem;
 }
+
+.card-columns {
+    column-gap: 0.75rem;
+}
+
+.card, .card-img, .card-img-top {
+    border-radius: 0;
+}
